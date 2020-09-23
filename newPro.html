@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prv Proekt</title>
+    <meta name='keywords' content='html,css,lekcii'>
+    <meta name='description' content='ova e strana za ucenje'>
+    <meta name='author' content='Bojan Petkovski'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <!-- Local CSS -->
+    <link rel='stylesheet' type='text/css' href='proekt.css'>
+    <!-- Font-awesome 4.7 cdn -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="d1">
+            <div class="dimg">
+                <a class="navbar-brand" href="proekt.html"><img class="navimg" src="logo.png" alt=""></a>
+            </div>
+            <div class="dp">
+                <p class="p1">BRAINSTER</p>
+            </div>
+        </div>
+        <div id="showSidebar" class="toggle-nav">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="sidebar">
+            <a id="closeSidebar"><i class="fa fa-times"></i></a>
+            <a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a>
+            <a href="http://codepreneurs.co/">Академија за програмирање</a>
+            <a href="">Академија за data science</a>
+            <a href="https://www.brainster.io/design">Академија за дизајн</a>
+            <a href="forma.html" target="_blank"><button class="btn btn-danger" id="red-li">Вработи наш
+                    студент</button></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://codepreneurs.co/">Академија за програмирање</a></li>
+                <li><a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a></li>
+                <li><a href="#">Академија за data science</a></li>
+                <li><a href="https://www.brainster.io/design">Академија за дизајн</a></li>
+                <li><a href="forma.html" target="_blank"><button class="btn btn-danger" id="red-li">Вработи наш
+                            студент</button></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid m-img">
+        <div class="row rgba">
+            <div>
+                <h1 class="naslov text-center">Brainster Labs</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0">
+
+        <ul class="projects-nav">
+            <li onclick="setActive('marketing')" id="mark">Проекти на студенти од академијата<br /> за маркетинг<i
+                    class="fa fa-check-circle"></i></li>
+            <li onclick="setActive('development')" id="dev">Проекти на студенти од академијата<br /> за програмирање<i
+                    class="fa fa-check-circle"></i></li>
+            <li onclick="setActive('design')" id="des">Проекти на студенти од академијата<br /> за дизајн<i
+                    class="fa fa-check-circle"></i></li>
+        </ul>
+    </div>
+    <div class="cards-container container">
+        <h1>Проекти</h1>
+        <div class="row">
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/young-woman-using-his-tabletpc-450w-344236334.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/program-development-concept-young-woman-450w-606184016.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/very-strange-smart-young-programmer-450w-1021796140.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/successful-female-grapic-designer-watching-450w-1033103851.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/cropped-view-two-friends-watching-450w-1383106487.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/business-woman-hand-writing-on-450w-1352808035.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/surprised-young-female-blogger-chatting-450w-613155317.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1 card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/back-view-woman-freelancer-working-450w-380016169.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1 card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/cropped-shot-view-young-woman-450w-644243494.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder marketing">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/person-working-on-laptop-computer-450w-534008512.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за маркетинг</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>маркетинг</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                маркетинг.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder marketing">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/businesss-man-using-laptop-mobile-450w-1426927520.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за маркетинг</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>маркетинг</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                маркетинг.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder marketing">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/business-consulting-meeting-working-brainstorming-450w-1404009266.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за маркетинг</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>маркетинг</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                маркетинг.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder marketing">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/cloud-computing-technology-connectivity-concept-450w-125411825.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за маркетинг</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>маркетинг</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                маркетинг.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder marketing">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/businessman-hand-typing-on-laptop-450w-1226092570.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за маркетинг</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>маркетинг</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                маркетинг.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder marketing">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/hand-typing-on-laptop-online-450w-1165799218.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за маркетинг</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>маркетинг</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                маркетинг.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://www.brainster.io/design">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1 card-holder designer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/business-woman-hand-holds-blue-450w-1248296068.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за дизајн</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>дизајн</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                дизајн.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.brainster.io/design">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1 card-holder designer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/positive-young-woman-drawing-diagram-450w-1383110819.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за дизајн</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br> дизајн</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                дизајн.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.brainster.io/design">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1 card-holder designer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/cropped-shot-view-womans-hands-450w-350777258.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за дизајн</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br> дизајн</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                дизајн.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <a href="https://www.brainster.io/design">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1 card-holder designer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/silhouette-anonymous-person-using-laptop-450w-735137110.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за дизајн</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br> дизајн</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                дизајн.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://codepreneurs.co/">
+                <div class="col-md-4 col-sm-10.col-sm-offset-1  card-holder developer">
+                    <div class="card">
+                        <img class="card-img-top col-md-12"
+                            src="https://image.shutterstock.com/image-photo/close-handsome-businessman-working-on-450w-1443578438.jpg"
+                            alt="Card image cap">
+                        <a href="#" class="btn btn-warning mar15 t-b">Академија за програмирање</a>
+                        <div class="card-body">
+                            <h4 class="card-title">Проект од областа на<br>програмирање</h4>
+                            <p class="card-text mar15">Тука стои краток опис во врска за проектот од академијата за
+                                програмирање.<br>
+                            </p>
+                            <p class="t-right">
+                                <a href="#" class="btn btn-danger mar15">Дознај повеќе</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer class="foot text-center">
+        <p>Изработено со <span class="heart">&hearts;</span> од студентите на Brainster</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <!-- jQuery library -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+    <!-- Latest compiled JavaScript -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+</body>
+
+</html>
